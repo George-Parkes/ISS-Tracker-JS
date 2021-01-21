@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(45deg, #250068, #5294b6);
+    height: 100vh;
+}
+
+h1 {
+    color: rgba(255, 255, 255, .9);
+    margin: 10px 0 5px;
+}
+
+p {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#mapid {
+    height: 400px;
+    width: 400px;
+    border-radius: 1%;
+}
+
+#console {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vh auto;
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 4px 8px 10px rgba(0, 0, 0, .3);
+    border-radius: 1%;
+}
